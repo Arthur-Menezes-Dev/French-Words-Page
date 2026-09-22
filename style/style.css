@@ -1,0 +1,41 @@
+body{
+  background-color: #FFF0F5 ;
+  text-align: center;
+}
+
+#container{
+  text-align: center;
+  background-color: #FFF0F5 ;
+  Display:flex ;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  Height: 5500px;
+}
+
+#ButtonsofTheMain{
+  Display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.WordsinButtom{
+  background-color: #FF00FF;
+  border: 4px, dotted, #E0FFFF ;
+  color: #B0E0E6;
+  font-family: Didot, serif;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+#MainButtonLeft{
+  
+}
+
+#MainButtonRight{
+  
+}

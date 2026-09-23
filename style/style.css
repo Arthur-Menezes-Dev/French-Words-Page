@@ -1,27 +1,58 @@
-body{
-  background-color: #FFF0F5 ;
-  text-align: center;
+html{
+  border: #E6E6FA 15px dashed;
+  background-color: #9932CC ;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 #container{
   text-align: center;
-  background-color: #FFF0F5 ;
-  Display:flex ;
+  background-color: #f861f3;
+  Display:flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height:100%;
+  border: solid black 10px;
+}
+
+header{
+  border: solid black 10px;
+  background-color: #f861f3;
   width: 100%;
-  Height: 5500px;
+}
+
+nav, footer{
+  background-color: #B0E0E6;
+  width: 100%;
+  border: solid black 10px;
+}
+
+.font1{
+  color:#8B0000;
+  font-size: 60px;
+  font-family:New Century Schoolbook, TeX Gyre Schola, serif ;
+  font-weight: bold;
+}
+
+.font2{
+  color: #F0F8FF;
+  font-family:Times, Times New Roman, serif;
 }
 
 #ButtonsofTheMain{
+  background-color: #f861f3;
   Display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
+  gap: 150px;
 }
 
 .WordsinButtom{
-  background-color: #FF00FF;
-  border: 4px, dotted, #E0FFFF ;
+  background-color:		#8B008B;
+  border: 4px, dashed, #E0FFFF ;
   color: #B0E0E6;
   font-family: Didot, serif;
   padding: 15px 32px;
@@ -30,12 +61,32 @@ body{
   font-size: 20px;
   cursor: pointer;
   border-radius: 10px;
+  height: 100px;
+  width: 200px ;
 }
 
-#MainButtonLeft{
-  
+.MainButtonLeft{
+  background-color: whitesmoke;
+  /*border: solid black 10px;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 40px;
 }
 
-#MainButtonRight{
-  
+.MainButtonRight{
+  background-color: whitesmoke;
+  /*border: solid black 10px;*/
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  padding: 40px;
 }

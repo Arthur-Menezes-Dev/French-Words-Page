@@ -1,59 +1,156 @@
-html{
-  border: #E6E6FA 15px dashed;
-  background-color: #9932CC ;
-  margin: 0;
-  padding: 0;
-  height: 100%;
+@media screen and (max-width: 575.98px) {
+  
 }
 
-#container{
+@media screen and (min-width: 576px) {
+  
+}
+
+@media screen and (min-width: 768px) {
+  
+}
+
+
+@media screen and (min-width: 992px) {
+  
+}
+
+
+@media screen and (min-width: 1200px) {
+ 
+}
+
+
+html {
+  background-color: #9932CC;
+  margin: 0px;
+  padding: 0px;
+}
+
+#container {
   text-align: center;
-  background-color: #f861f3;
-  Display:flex;
+  display: flex; 
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height:100%;
-  border: solid black 10px;
+  min-height: 100vh; /* Alterado de height para min-height para não quebrar o layout */
+  background: linear-gradient(to bottom, #800080, #FF00FF, #EE82EE,#C71585, #FF1493 );
+
 }
 
-header{
-  border: solid black 10px;
-  background-color: #f861f3;
+header {
+  background: linear-gradient(to bottom, #FFB6C1, #DA70D6, #C71585);
   width: 100%;
+  height: auto;
 }
 
-nav, footer{
-  background-color: #B0E0E6;
-  width: 100%;
-  border: solid black 10px;
-}
 
-.font1{
-  color:#8B0000;
+.font1 {
+  color: #8B0000;
   font-size: 60px;
-  font-family:New Century Schoolbook, TeX Gyre Schola, serif ;
+  font-family: New Century Schoolbook, TeX Gyre Schola, serif;
   font-weight: bold;
 }
 
-.font2{
+.font2 {
   color: #F0F8FF;
-  font-family:Times, Times New Roman, serif;
+  font-family: Times, Times New Roman, serif;
 }
 
-#ButtonsofTheMain{
-  background-color: #f861f3;
-  Display: flex;
+main{
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionSides{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 20px;
+} 
+
+.mainbuttons{
+  display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.wordButton{
+  border: dashed 3px white;
+  background-color: #B0E0E6;
+  color: #6A5ACD;
+  height: 50px;
+  width: 100px;
+  border-radius: 15px;
+  margin: 5px;
+}
+
+
+.navbar ul{
+  list-style-type: none;
+  background-color: #87CEEB;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
+
+.navbar a{
+  color: #6A5ACD;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+}
+
+.navbar a:hover{
+  background-color: #FA8072;
+}
+
+.navbar li{
+  float: left;
+}
+
+
+nav{
+  width: 100%;
+}
+
+footer {
+  background-color: #B0E0E6;
+  width: 100%;
+  display: flex;
+   flex-direction: row;
+  
+}
+
+.footerLi{
+  list-style-type: none;
+}
+
+.footerA{
+  text-decoration: none;
+}
+/*
+
+#ButtonsofTheMain {
+  background-color: #f861f3;
+  display: flex; /* Corrigido para minúsculo */
+ /* flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 150px;
 }
 
-.WordsinButtom{
-  background-color:		#8B008B;
-  border: 4px, dashed, #E0FFFF ;
-  color: #B0E0E6;
+.WordsinButtom {
+  background-color: #8B008B;
+  border: 4px dashed #E0FFFF; /* Corrigido: removido as vírgulas */
+/*  color: #B0E0E6;
   font-family: Didot, serif;
   padding: 15px 32px;
   text-align: center;
@@ -62,12 +159,11 @@ nav, footer{
   cursor: pointer;
   border-radius: 10px;
   height: 100px;
-  width: 200px ;
+  width: 200px;
 }
 
-.MainButtonLeft{
+.MainButtonLeft {
   background-color: whitesmoke;
-  /*border: solid black 10px;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,9 +174,8 @@ nav, footer{
   padding: 40px;
 }
 
-.MainButtonRight{
+.MainButtonRight {
   background-color: whitesmoke;
-  /*border: solid black 10px;*/
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -89,4 +184,4 @@ nav, footer{
   margin-bottom: 10px;
   margin-left: 10px;
   padding: 40px;
-}
+} */

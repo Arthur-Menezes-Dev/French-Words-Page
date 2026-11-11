@@ -1,24 +1,59 @@
 @media screen and (max-width: 575.98px) {
-  
+  .moreButton {
+    border: dashed 1px white;
+  background-color: #B0E0E6;
+  color: #6A5ACD;
+  height: 30px;
+  width: 60px;
+  border-radius: 8px;
+  margin: 2px;
+  font-family: ;
+  }
 }
+
 
 @media screen and (min-width: 576px) {
-  
+ .moreButton{ 
+ border: dashed 1px white;
+  background-color: #B0E0E6;
+  color: #6A5ACD;
+  height: 30px;
+  width: 60px;
+  border-radius: 8px;
+  margin: 2px;
+  font-family: ;
+ }
 }
 
+
 @media screen and (min-width: 768px) {
-  
+  .moreButton{ 
+ border: dashed 1px white;
+  background-color: #B0E0E6;
+  color: #6A5ACD;
+  height: 30px;
+  width: 60px;
+  border-radius: 8px;
+  margin: 2px;
+  font-family: ;
+ }
 }
+
+
 
 
 @media screen and (min-width: 992px) {
-  
+ 
 }
+
+
 
 
 @media screen and (min-width: 1200px) {
  
 }
+
+
 
 
 html {
@@ -27,22 +62,27 @@ html {
   padding: 0px;
 }
 
+
 #container {
   text-align: center;
-  display: flex; 
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   min-height: 100vh; /* Alterado de height para min-height para não quebrar o layout */
   background: linear-gradient(to bottom, #800080, #FF00FF, #EE82EE,#C71585, #FF1493 );
 
+
 }
+
 
 header {
   background: linear-gradient(to bottom, #FFB6C1, #DA70D6, #C71585);
   width: 100%;
   height: auto;
 }
+
+
 
 
 .font1 {
@@ -52,16 +92,29 @@ header {
   font-weight: bold;
 }
 
+
 .font2 {
   color: #F0F8FF;
-  font-family: Times, Times New Roman, serif;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+.font3{
+  color: 	#800000;
+  font-family: Georgia, serif;
+  font-size: 25px;
+}
+
+.headerWords:hoover{
+  color: #6A5ACD;
 }
 
 main{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
+} /*Where all the main content goes*/
+
 
 .sectionSides{
   display: flex;
@@ -71,14 +124,18 @@ main{
   flex-wrap: wrap;
   margin: 20px;
   padding: 20px;
-} 
+} /*For both sides of the the most used words*/
+
 
 .mainbuttons{
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-}
+} /*for the div of the most used words*/
+
+
+
 
 
 .wordButton{
@@ -89,8 +146,71 @@ main{
   width: 100px;
   border-radius: 15px;
   margin: 5px;
+  font-family:Luminari, fantasy;
+  transition: 0.2s;
+} /*For the buttons*/
+
+
+.wordButton:hover{
+  border: dashed 4px white;
+  background-color: #BA55D3;
+  color: #E0FFFF;
+  height: 60px;
+  width: 110px;
+  transition: 0.2s;
+} 
+
+#mainVerbs{
+  
+} 
+
+
+.verbButtons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+} /*Equiv the mainbuttons*/
+
+.verbButtonsRight{
+  
+} 
+
+.verbButtonsLeft{
+  
+} 
+
+.adverbsButtons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+} /*Equiv the mainbuttons*/
+
+.nounsButtons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+} /*Equiv the mainbuttons*/
+
+.adjectivsButtons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+} /*Equiv the mainbuttons*/
+
+/* Garante que o contêiner e a imagem ocupem toda a largura */
+#topWeb {
+  width: 100%;
 }
 
+#topWeb img {
+  width: 100%;
+  height: 100px; /* Mantém a proporção correta da imagem */
+  display: block; /* Remove o pequeno espaço em branco que fica abaixo de imagens inline */
+}
 
 .navbar ul{
   list-style-type: none;
@@ -100,6 +220,7 @@ main{
   overflow: hidden;
 }
 
+
 .navbar a{
   color: #6A5ACD;
   text-decoration: none;
@@ -108,80 +229,52 @@ main{
   text-align: center;
 }
 
+
 .navbar a:hover{
   background-color: #FA8072;
 }
+
 
 .navbar li{
   float: left;
 }
 
 
+
+
 nav{
   width: 100%;
 }
+
 
 footer {
   background-color: #B0E0E6;
   width: 100%;
   display: flex;
-   flex-direction: row;
-  
+  flex-direction: column;
+ 
 }
+
 
 .footerLi{
   list-style-type: none;
 }
 
+
 .footerA{
   text-decoration: none;
-}
-/*
-
-#ButtonsofTheMain {
-  background-color: #f861f3;
-  display: flex; /* Corrigido para minúsculo */
- /* flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  gap: 150px;
+  margin: 15px;
 }
 
-.WordsinButtom {
-  background-color: #8B008B;
-  border: 4px dashed #E0FFFF; /* Corrigido: removido as vírgulas */
-/*  color: #B0E0E6;
-  font-family: Didot, serif;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 20px;
-  cursor: pointer;
-  border-radius: 10px;
-  height: 100px;
-  width: 200px;
+
+#footerTitle{
+  font-family: ;
 }
 
-.MainButtonLeft {
-  background-color: whitesmoke;
+
+#footerLinks{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  margin-right: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  padding: 40px;
 }
-
-.MainButtonRight {
-  background-color: whitesmoke;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10px;
-  padding: 40px;
-} */

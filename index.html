@@ -9,12 +9,14 @@
     <meta name="author" content="arthur-Menezes-dev">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
+
   <body>
+
     <div id="container">
-      
+     
       <div id="topWeb">
         <!-- Here i can add either a logo or the name of my webpage-->
-        <img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/960px-Flag_of_France.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail" width="100%" height="70px">
+        <img src="img/frenchFlag.webp" width="100%">
       </div>
 
       <nav class="navbar">
@@ -23,135 +25,263 @@
           <li><a href="">Home</a></li>
           <li><a href="">Login</a></li>
           <li><a href="">Sign up</a></li>
-          <li><a href="">footer</a></li>
+          <li><a href="#footer">footer</a></li>
         </ul>
 
       </nav>
 
-      
       <header>
-        <h1 class="font1">The most important words to use in French language </h1> 
-        <p class="font2">Hello everyone it's me Arthur from Learn French With Arthur. Here i selected some key words that every beginner should know in french.</p>
+        <h1 class="font1">The most important words to use in French language </h1>
+        <p class="font2">Hello everyone it's me Arthur from Learn French With Arthur. Here i selected some key words that every beginner should know in french. From The most usual words and complements to real grammar stuff, such as <span style="color: beige;"><u>Adverbs</u></span>, <span style="color: beige;"><u>Nouns</u></span>, <span style="color: beige;"><u>Verbs</u></span> and even some <span style="color: beige;"><u>Adjectives</u></span>. Everything you need to know to start building your own first phrases and evolve from A0 to A1 in French language. So let's Go! </p>
       </header>
-      
+     
       <main>
 
-        <div class="mainbuttons">
-        
-        <section class="sectionSides" id="buttonLeft">
-          
-          <button class="wordButton">Bonjour</button>
-          <button class="wordButton">Bon apres midi</button>
-          <button class="wordButton">bonsoir</button>
-          <button class="wordButton">bonne nuit</button>
-          
-          
-          <button class="wordButton">Bonjour</button>
-          <button class="wordButton">Bon apres midi</button>
-          <button class="wordButton">bonsoir</button>
-          <button class="wordButton">bonne nuit</button>
-          
-          
-          
-        </section>
-        
-        <section class="sectionSides" id="buttonRight">
-          
-          <button class="wordButton">Bonjour</button>
-          <button class="wordButton">Bon apres midi</button>
-          <button class="wordButton">bonsoir</button>
-          <button class="wordButton">bonne nuit</button>
-          
-          <button class="wordButton">Bonjour</button>
-          <button class="wordButton">Bon apres midi</button>
-          <button class="wordButton">bonsoir</button>
-          <button class="wordButton">bonne nuit</button>
-          
-        </section>
+        <div id="mainbuttonsExplanaition">
+
+            <h2 class="font3">Common Words</h2>
+
+            <p class="font2">Let's take a looks at some of the most used words in french language, daily Spoken by natives. </p>
 
         </div>
+
+        <div class="mainbuttons">
+
+        <section class="sectionSides" id="buttonLeft">
+         
+          <button onclick="wordDisplayBonjour()" class="wordButton">Bonjour</button>
+          <button onclick="wordDisplayBonApresMidi()" class="wordButton">Bon apres midi</button>
+          <button onclick="wordDisplayBonsoir()" class="wordButton">bonsoir</button>
+          <button onclick="wordDisplayBonnenuit()" class="wordButton">bonne nuit</button>
+         
+         
+          <button onclick="wordDisplayAuRevoir()" class="wordButton">Au revoir</button>
+          <button onclick="wordDisplaySalut()" class="wordButton">Salut</button>
+          <button onclick="wordDisplayMerciBeaucoup()" class="wordButton">Merci (beaucoup)</button>
+          <button onclick="wordDisplayDeRien()" class="wordButton"> De rien</button>
+                         
+        </section>
+       
+        <section class="sectionSides" id="buttonRight">
+         
+          <button onclick="wordDisplaySVP()" class="wordButton">S’il vous plaît / S’il te plaît</button>
+          <button onclick="wordDisplayExcusemoi()" class="wordButton">Excusez-moi</button>
+          <button onclick="wordDisplayPardon()" class="wordButton">Pardon</button>
+          <button onclick="wordDisplayjncp()" class="wordButton">Je ne comprends pas</button>
+         
+          <button onclick="wordDisplayJSD()" class="wordButton">je suis désolé</button>
+          <button onclick="wordDisplayCommCaVa()" class="wordButton">comment ça va ?</button>
+          <button onclick="wordDisplayCaVa()" class="wordButton">ça va ?</button>
+          <button onclick="wordDisplayTresBien()" class="wordButton">très bien</button>
+         
+        </section>
+         
+          <!--i cam ass 1 click. shows a pop up with a x about a word and its meaning. if i press twice smt happen-->
+        </div>
+
+
+        <div id="mainVerbs">
+
+          <div id="mainVerbsExplaination">
+
+          <h2 class="font3">Common Verbs</h2>
+
+          <p class="font2">verb is a word that expresses an action, an occurrence, or a state of being. Every complete sentence needs at least one verb to tell what the subject is doing or experiencing (such as run, happen, or exist).</p>
+
+          </div>
+            
+          <div class="verbButtons">
+
+            <div class="sectionSides verbButtonsRight">
+              <button onclick="verbdisplayEtre()" class="wordButton">Être</button>
+              <button onclick="verbdisplayAvoir()" class="wordButton">Avoir</button>
+              <button onclick="verbdisplayFaire()" class="wordButton">Faire</button>
+              <button onclick="verbdisplayAller()" class="wordButton">Aller</button>
+
+
+              <button onclick="verbdisplayDire()" class="wordButton">Dire</button>
+              <button onclick="verbdisplayPouvoir()" class="wordButton">Pouvoir</button>
+              <button onclick="verbdisplayVouloir()" class="wordButton">Vouloir</button>
+              <button onclick="verbdisplaySavoir()" class="wordButton">Savoir</button>
+             
+            </div>
+
+
+            <div class="sectionSides verbButtonsLeft">
+              <button onclick="verbdisplayVoir()" class="wordButton">Voir</button>
+              <button onclick="verbdisplayVenir()" class="wordButton">Venir</button>
+              <button onclick="verbdisplayPrendre()" class="wordButton">Prendre</button>
+              <button onclick="verbdisplayMettre()" class="wordButton">Mettre</button>
+
+
+              <button onclick="verbdisplayDonner()" class="wordButton">Donner</button>
+              <button onclick="verbdisplayManger()" class="wordButton">Manger</button>
+              <button onclick="verbdisplayBoire()" class="wordButton">Boire</button>
+              <button onclick="verbdisplayAimer()" class="wordButton">Aimer</button>
+            </div>
+              
+            <!-- verbs taken from https://www.afscv.org/blog/50-most-common-french-verbs-you-should-master/ -->
+          </div>
+
+
+        </div>
+
+        <div id="mainAdverbs">
+
+          <div class="mainAdverbsExplaination">
+
+          <h2 class="font3">Common Adverbs</h2>
+
+          <p class="font2">An adverb is a word that describes or modifies a verb, an adjective, or another adverb. It typically tells how, when, where, or how much something happens.</p>
+            
+        </div>
+         
+          <div class="adverbsButtons">
+
+            <div class="sectionSides adverbsButtonsRight">
+              <button onclick="adverbsdisplayPlus()" class="wordButton">Plus</button>
+              <button onclick="adverbsdisplayPas()" class="wordButton">Pas</button>
+              <button onclick="adverbsdisplayBien()" class="wordButton">Bien</button>
+              <button onclick="adverbsdisplayEncore()" class="wordButton">Encore</button>
+
+              <button onclick="adverbsdisplayAussi()" class="wordButton">Aussi</button>
+              <button onclick="adverbsdisplayToujours()" class="wordButton">Toujours</button>
+              <button onclick="adverbsdisplayJamais()" class="wordButton">Jamais</button>
+              <button onclick="adverbsdisplayTrès()" class="wordButton">Très</button>
+            </div>
+
+            <div class="sectionSides adverbsButtonsLeft">
+              <button onclick="adverbsdisplayBeaucoup()" class="wordButton">Beaucoup</button>
+              <button onclick="adverbsdisplayIci()" class="wordButton">Ici</button>
+              <button onclick="adverbsdisplayMaintenant()" class="wordButton">Maintenant</button>
+              <button onclick="adverbsdisplayDéjà()" class="wordButton">Déjà</button>
+
+              <button onclick="adverbsdisplayPourquoi()" class="wordButton">Pourquoi</button>
+              <button onclick="adverbsdisplayAinsi()" class="wordButton">Ainsi</button>
+              <button onclick="adverbsdisplaySouvent()" class="wordButton">Souvent</button>
+              <button onclick="adverbsdisplayVite()" class="wordButton">Vite</button>
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+        <div id="mainNouns">
+
+          <div class="mainNounsExplaination">
+
+          <h2 class="font3">Common Nouns</h2>
+
+          <p class="font2">A noun is a word that names a person, place, thing, or idea. Common examples include dog, city, apple, and happiness.</p>
+            
+          </div>
+
+        <div class="nounsButtons">
+
+
+            <div class="sectionSides nounsButtonsRight">
+              <button onclick="nounsdisplayTemps()" class="wordButton">Temps</button>
+              <button onclick="nounsdisplayHomme()" class="wordButton">Homme</button>
+              <button onclick="nounsdisplayFemme()" class="wordButton">Femme</button>
+              <button onclick="nounsdisplayJour()" class="wordButton">Jour</button>
+
+              <button onclick="nounsdisplayVie()" class="wordButton">Vie</button>
+              <button onclick="nounsdisplayMaison()" class="wordButton">Maison</button>
+              <button onclick="nounsdisplayMonde()" class="wordButton">Monde</button>
+              <button onclick="nounsdisplayChose()" class="wordButton">Chose</button>
+            </div>
+
+            <div class="sectionSides nounsButtonsLeft">
+              <button onclick="nounsdisplayEnfant()" class="wordButton">Enfant</button>
+              <button onclick="nounsdisplayPays()" class="wordButton">Pays</button>
+              <button onclick="nounsdisplayTravail()" class="wordButton">Travail</button>
+              <button onclick="nounsdisplayHeure()" class="wordButton">Heure</button>
+
+              <button onclick="nounsdisplayRaison()" class="wordButton">Raison</button>
+              <button onclick="nounsdisplayEau()" class="wordButton">Eau</button>
+              <button onclick="nounsdisplayNom()" class="wordButton">Nom</button>
+              <button onclick="nounsdisplayFamille()" class="wordButton">Famille</button>
+            </div>
+
+
+          </div>
+
+        </div>
+
+        <div id="mainAdjectives">
+
+          <div class="mainAdjectivesExplaination">
+
+          <h2 class="font3">Common Adjectives</h2>
+
+          <p class="font2">An adjective is a word that describes or modifies a noun or pronoun. It adds details like size, color, or feeling (for example, happy, blue, or tall).</p>
+            
+          </div>
+
+          <div class="sectionSides adjectivsButtons">
+
+            <div class="sectionSides adjectivsButtonsRight">
+              <button onclick="adjectivesdisplayGrand()" class="wordButton">Grand</button>
+              <button onclick="adjectivesdisplayPetit()" class="wordButton">Petit</button>
+              <button onclick="adjectivesdisplayBon()" class="wordButton">Bon</button>
+              <button onclick="adjectivesdisplayMauvais()" class="wordButton">Mauvais</button>
+
+              <button onclick="adjectivesdisplayNouveau()" class="wordButton">Nouveau</button>
+              <button onclick="adjectivesdisplayVieux()" class="wordButton">Vieux</button>
+              <button onclick="adjectivesdisplayJeune()" class="wordButton">Jeune</button>
+              <button onclick="adjectivesdisplayBeau()" class="wordButton">Beau</button>
+            </div>
+
+            <div class="sectionSides adjectivsButtonsLeft">
+              <button onclick="adjectivesdisplayPremier()" class="wordButton">Premier</button>
+              <button onclick="adjectivesdisplayDernier()" class="wordButton">Dernier</button>
+              <button onclick="adjectivesdisplayMême()" class="wordButton">Même</button>
+              <button onclick="adjectivesdisplayAutre()" class="wordButton">Autre</button>
+
+              <button onclick="adjectivesdisplayVrai()" class="wordButton">Vrai</button>
+              <button onclick="adjectivesdisplaySeul()" class="wordButton">Seul</button>
+              <button onclick="adjectivesdisplayChaud()" class="wordButton">Chaud</button>
+              <button onclick="adjectivesdisplayFroid()" class="wordButton">Froid</button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="mainMore">
+
+          <p class="font2"> Want more? Click Here For more French content</p>
+
+          <button onclick="" class="wordButton moreButton">Articles</button>
+              <button onclick="" class="wordButton moreButton">Pronouns</button>
+              <button onclick="" class="wordButton moreButton">Numbers</button>
+              <button onclick="" class="wordButton moreButton">Alfabet</button>
+        </div>
+
+
+
+
       </main>
-      
-      
-      
-      <footer>
+     
+      <!-- i can ad a verbs part here a numbers part a adverbs part and a questions and adjectives-->
+     
+      <!-- based on: https://ecolefrench.org/blog/common-french-words/-->
+     
+      <footer id="footer">
 
-        <h2>Follow us In our Social Medias: </h2>
 
-        <ul>
-          <li class="footerLi"><a href="" class="footerA" target="_blank">Instagram</a></li>
-          <li class="footerLi"><a href="" class="footerA" target="_blank">TikTok</a></li>
-        </ul>
-          
+        <h2 class="font3" id="footerTitle">Follow us In our Social Medias: </h2>
+       
+        <div id="footerLinks">
+
+          <a href="" class="footerA" target="_blank">Instagram</a>
+          <a href="" class="footerA" target="_blank">TikTok</a>
+ 
+        </div>
+         
       </footer>
     </div>
+    <script src="js/script.js"></script>
   </body>
 </html>
-
-<!--<main id="ButtonsofTheMain">
-        <section class="MainButtonLeft">
-        
-        <div>
-         <button class="WordsinButtom">Salut</button>
-         <button class="WordsinButtom">Bonjour</button>
-        </div>
-        <div>
-         <button class="WordsinButtom">Ça va</button>
-         <button class="WordsinButtom">Comment ça va</button>
-         </div>
-         <div>
-         <button class="WordsinButtom">Bonne nuit</button>
-         <button class="WordsinButtom">Bon aprés-midi</button>
-         </div>
-         <div>
-         <button class="WordsinButtom">Bonne soiree</button>
-         <button class="WordsinButtom">À bientôt</button>
-         </div>
-         <div>
-         <button class="WordsinButtom">Bonsoir</button>
-         <button class="WordsinButtom">Bonsoir</button>
-         </div>
-         <div>
-         <button class="WordsinButtom">Bonsoir</button>
-         <button class="WordsinButtom">Bonsoir</button>
-         </div>
-         <div>
-         <button class="WordsinButtom">Bonsoir</button>
-         <button class="WordsinButtom">Bonsoir</button>
-         </div>
-          
-        </section>
-        
-        <section class="MainButtonRight">
-
-          <div>
-          <button class="WordsinButtom">Merci </button>
-          <button class="WordsinButtom">Merci  </button>
-          </div>
-          <div>
-          <button class="WordsinButtom">Merci  </button>
-          <button class="WordsinButtom">Merci  </button>
-          </div>
-          <div>
-          <button class="WordsinButtom">Où est…? </button>
-          <button class="WordsinButtom">Billet</button>
-          </div>
-          <div>
-          <button class="WordsinButtom">Bagage</button>
-          <button class="WordsinButtom">Je suis perdu(e)</button>
-          </div>
-          <div>
-          <button class="WordsinButtom">Pouvez-vous m’aider?</button>
-          <button class="WordsinButtom">Pouvez-vous m’aider?</button>
-          </div>
-          <div>
-          <button class="WordsinButtom">Bonsoir</button>
-          <button class="WordsinButtom">Bonsoir</button>
-          </div>
-          <div>
-          <button class="WordsinButtom">Bonsoir</button>
-          <button class="WordsinButtom">Bonsoir</button>
-          </div>
-          
-        </section>
-      </main> -->

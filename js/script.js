@@ -203,38 +203,132 @@ function adverbsdisplayVite(){
      alert ("Fast / Quickly"); 
 }
 
-// --- NOUNS (Substantivos: Nome da função em Francês, Alert em Inglês) ---
-function nounsdisplayTemps(){ alert ("Time"); }
-function nounsdisplayHomme(){ alert ("Man"); }
-function nounsdisplayFemme(){ alert ("Woman"); }
-function nounsdisplayJour(){ alert ("Day"); }
-function nounsdisplayVie(){ alert ("Life"); }
-function nounsdisplayMaison(){ alert ("House"); }
-function nounsdisplayMonde(){ alert ("World"); }
-function nounsdisplayChose(){ alert ("Thing"); }
-function nounsdisplayEnfant(){ alert ("Child"); }
-function nounsdisplayPays(){ alert ("Country"); }
-function nounsdisplayTravail(){ alert ("Work"); }
-function nounsdisplayHeure(){ alert ("Hour"); }
-function nounsdisplayRaison(){ alert ("Reason"); }
-function nounsdisplayEau(){ alert ("Water"); }
-function nounsdisplayNom(){ alert ("Name"); }
-function nounsdisplayFamille(){ alert ("Family"); }
 
-// --- ADJECTIVES (Adjetivos: Nome da função em Francês, Alert em Inglês) ---
-function adjectivesdisplayGrand(){ alert ("Big / Tall"); }
-function adjectivesdisplayPetit(){ alert ("Small / Little"); }
-function adjectivesdisplayBon(){ alert ("Good"); }
-function adjectivesdisplayMauvais(){ alert ("Bad"); }
-function adjectivesdisplayNouveau(){ alert ("New"); }
-function adjectivesdisplayVieux(){ alert ("Old"); }
-function adjectivesdisplayJeune(){ alert ("Young"); }
-function adjectivesdisplayBeau(){ alert ("Beautiful / Handsome"); }
-function adjectivesdisplayPremier(){ alert ("First"); }
-function adjectivesdisplayDernier(){ alert ("Last"); }
-function adjectivesdisplayMême(){ alert ("Same"); }
-function adjectivesdisplayAutre(){ alert ("Other"); }
-function adjectivesdisplayGrand(){ alert ("Great"); }
-function adjectivesdisplayVrai(){ alert ("True"); }
-function adjectivesdisplaySeul(){ alert ("Only / Alone"); }
-function adjectivesdisplayChaud(){ alert ("Hot / Warm"); }
+function nounsdisplayTemps(){
+     alert ("Time"); 
+}
+
+function nounsdisplayHomme(){
+     alert ("Man"); 
+}
+
+function nounsdisplayFemme(){
+     alert ("Woman");
+}
+
+function nounsdisplayJour(){
+     alert ("Day"); 
+}
+
+function nounsdisplayVie(){
+     alert ("Life"); 
+}
+
+function nounsdisplayMaison(){
+     alert ("House"); 
+}
+
+function nounsdisplayMonde(){
+     alert ("World"); 
+}
+
+function nounsdisplayChose(){
+     alert ("Thing"); 
+}
+
+function nounsdisplayEnfant(){
+     alert ("Child"); 
+}
+
+function nounsdisplayPays(){
+     alert ("Country"); 
+}
+
+function nounsdisplayTravail(){
+     alert ("Work"); 
+}
+
+function nounsdisplayHeure(){
+     alert ("Hour"); 
+}
+
+function nounsdisplayRaison(){
+     alert ("Reason"); 
+}
+
+function nounsdisplayEau(){
+     alert ("Water"); 
+}
+
+function nounsdisplayNom(){
+     alert ("Name"); 
+}
+
+function nounsdisplayFamille(){
+     alert ("Family"); 
+}
+
+
+function adjectivesdisplayGrand(){
+     alert ("Big / Tall"); 
+}
+
+function adjectivesdisplayPetit(){
+     alert ("Small / Little"); 
+}
+
+function adjectivesdisplayBon(){
+     alert ("Good"); 
+}
+
+function adjectivesdisplayMauvais(){
+     alert ("Bad"); 
+}
+
+function adjectivesdisplayNouveau(){
+     alert ("New"); 
+}
+
+function adjectivesdisplayVieux(){
+     alert ("Old"); 
+}
+
+function adjectivesdisplayJeune(){
+     alert ("Young"); 
+}
+
+function adjectivesdisplayBeau(){
+     alert ("Beautiful / Handsome"); 
+}
+
+function adjectivesdisplayPremier(){
+     alert ("First"); 
+}
+
+function adjectivesdisplayDernier(){
+     alert ("Last"); 
+}
+
+function adjectivesdisplayMême(){
+     alert ("Same"); 
+}
+
+function adjectivesdisplayAutre(){
+     alert ("Other"); 
+}
+
+function adjectivesdisplayGrand(){
+     alert ("Great"); 
+}
+
+function adjectivesdisplayVrai(){
+     alert ("True"); 
+}
+
+function adjectivesdisplaySeul(){
+     alert ("Only / Alone"); 
+}
+
+function adjectivesdisplayChaud(){
+     alert ("Hot / Warm"); 
+}

@@ -1,41 +1,38 @@
 @media screen and (max-width: 575.98px) {
   .moreButton {
     border: dashed 1px white;
-  background-color: #B0E0E6;
-  color: #6A5ACD;
-  height: 30px;
-  width: 60px;
-  border-radius: 8px;
-  margin: 2px;
-  font-family: ;
+    background-color: #B0E0E6;
+    color: #6A5ACD;
+    height: 30px;
+    width: 60px;
+    border-radius: 8px;
+    margin: 2px;
   }
 }
 
 
 @media screen and (min-width: 576px) {
  .moreButton{ 
- border: dashed 1px white;
-  background-color: #B0E0E6;
-  color: #6A5ACD;
-  height: 30px;
-  width: 60px;
-  border-radius: 8px;
-  margin: 2px;
-  font-family: ;
+    border: dashed 1px white;
+    background-color: #B0E0E6;
+    color: #6A5ACD;
+    height: 30px;
+    width: 60px;
+    border-radius: 8px;
+    margin: 2px;
  }
 }
 
 
 @media screen and (min-width: 768px) {
   .moreButton{ 
- border: dashed 1px white;
-  background-color: #B0E0E6;
-  color: #6A5ACD;
-  height: 30px;
-  width: 60px;
-  border-radius: 8px;
-  margin: 2px;
-  font-family: ;
+    border: dashed 1px white;
+    background-color: #B0E0E6;
+    color: #6A5ACD;
+    height: 30px;
+    width: 60px;
+    border-radius: 8px;
+    margin: 2px;
  }
 }
 
@@ -100,7 +97,7 @@ header {
 }
 
 .font3{
-  color: 	#800000;
+  color: #800000;
   font-family: Georgia, serif;
   font-size: 25px;
 }
@@ -133,9 +130,6 @@ main{
   align-items: center;
   justify-content: center;
 } /*for the div of the most used words*/
-
-
-
 
 
 .wordButton{
@@ -264,11 +258,14 @@ footer {
 .footerA{
   text-decoration: none;
   margin: 15px;
+  font-family: Luminari, fantasy;
 }
 
-
-#footerTitle{
-  font-family: ;
+.footerA:hover{
+  text-decoration: none;
+  margin: 15px;
+  font-family: Luminari, fantasy;
+  font-size: 22px;
 }
 
 
